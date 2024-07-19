@@ -1,0 +1,39 @@
+.button {
+  border: none;
+  height: 24px;
+  width: 24px;
+  border-radius: 2px;
+  background: #000;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .3s;
+
+  &:hover {
+    background: rgb(23, 23, 23);
+  }
+
+  &:focus-visible {
+    outline: 2px solid rgb(47, 104, 204);
+  }
+}
+
+.activeButton {
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  cursor: default;
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    background-color: #fff;
+  }
+}
+
+.disabled {
+  pointer-events: none;
+}

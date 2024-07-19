@@ -1,0 +1,17 @@
+.selectNumber {
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+
+  select {
+    margin-left: 4px;
+    margin-right: 9px;
+  }
+
+  span {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+}

@@ -1,0 +1,8 @@
+npm ERR! code EJSONPARSE
+npm ERR! JSON.parse Invalid package.json: JSONParseError: Expected double-quoted property name in JSON at position 1021 while parsing '{
+npm ERR! JSON.parse   "name": "it-incubator-todolist-ts",
+npm ERR! JSON.parse '
+npm ERR! JSON.parse Failed to parse JSON data.
+npm ERR! JSON.parse Note: package.json must be actual JSON, not just JavaScript.
+
+npm ERR! A complete log of this run can be found in: C:\Users\taras\AppData\Local\npm-cache\_logs\2024-03-20T13_49_41_972Z-debug-0.log
